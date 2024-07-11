@@ -1,3 +1,5 @@
+## Protótipo MongoDB
+
 A empresa VendeMuito+ Ltda está avaliando um novo sistema de armazenaento de dados dos pedidos efetuados pelo cliente. Inicialmente receberam a presença de um consultor de um famoso banco de dados relacional e que desenvolveu um protótipo baseado no modelo exemplo existente no blog <https://blogs.oracle.com/sql/post/announcing-a-new-sample-schema-customer-orders>.
 
 Aparentemente a empresa gostou do protótipo proposto pelo consultor, mas está um pouco preocupado com a quantidade de dados que deverá ser armazenado e processado, pois estão prevendo um grande crescimento com sua nova linha de produtos.
