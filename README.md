@@ -9,3 +9,61 @@ Para terem um segundo protótipo, você foi contratado para construir um usando 
 - Escreva um pequeno documento citando vantagens e desvantagens do seu protótipo em relação ao apresentado pelo blog.
 
 Entregue os arquivos gerados (fontes, documento, jsons de exemplos) em um arquivo .zip e suba aqui na ferramenta
+
+```json
+{
+  "order_id": 1,
+  "order_datetime": "2024-07-09T12:34:56Z",
+  "order_status": "Shipped",
+  "store": {
+    "store_id": 301,
+    "store_name": "Store 1",
+    "web_address": "http://store1.com",
+    "physical_address": "123 Store St, City, Country",
+    "latitude": 40.7128,
+    "longitude": -74.0060,
+    "logo": "base64EncodedLogoImageString",
+    "logo_mime_type": "image/png",
+    "logo_filename": "logo1.png",
+    "logo_charset": "UTF-8",
+    "logo_last_updated": "2024-07-08"
+  },
+  "customer": {
+    "customer_id": 201,
+    "email_address": "customer@example.com",
+    "full_name": "John Doe"
+  },
+  "order_items": [
+    {
+      "line_item_id": 1,
+      "product": {
+        "product_id": 101,
+        "product_name": "Product 1",
+        "unit_price": 19.99,
+        "product_details": "Detailed description of Product 1",
+        "product_image": "base64EncodedImageString",
+        "image_mime_type": "image/jpeg",
+        "image_filename": "product1.jpg",
+        "image_charset": "UTF-8",
+        "image_last_updated": "2024-07-08"
+      },
+      "quantity": 2
+    },
+    {
+      "line_item_id": 2,
+      "product": {
+        "product_id": 102,
+        "product_name": "Product 2",
+        "unit_price": 29.99,
+        "product_details": "Detailed description of Product 2",
+        "product_image": "base64EncodedImageString",
+        "image_mime_type": "image/jpeg",
+        "image_filename": "product2.jpg",
+        "image_charset": "UTF-8",
+        "image_last_updated": "2024-07-08"
+      },
+      "quantity": 1
+    }
+  ]
+}
+```
